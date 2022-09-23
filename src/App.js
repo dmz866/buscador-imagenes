@@ -2,6 +2,8 @@ import { Field, Form, Formik } from 'formik';
 import { useState } from 'react';
 import './App.css';
 import './components/Header/Header.css';
+import './components/Content/Content.css';
+import './components/Article/Article.css';
 
 export default function App() {
 	const [photos, setPhotos] = useState([]);
